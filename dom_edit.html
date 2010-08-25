@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html id='dom_edit'>
+  <head>
+    <title>
+      What Tech - Collin Miller, Quinn Shanahan, Gregory Gallagher
+    </title>
+    <link href="stylesheets/application.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href='turn/turn.css' rel='stylesheet' type='text/css' />
+    <script>
+      cssTransitionsBindingURL = "/javascripts/bindings.xml"
+    </script>
+    <script language="javascript" src="javascripts/jquery.js" type="text/javascript"></script><script language="javascript" src="javascripts/jquery.color.js" type="text/javascript"></script><script language="javascript" src="javascripts/jquery.css-transitions.js" type="text/javascript"></script><script language="javascript" src="javascripts/jquery.easing.js" type="text/javascript"></script><script language="javascript" src="javascripts/jquery.cycle.js" type="text/javascript"></script><script language="javascript" src="javascripts/application.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <a href="javascript:(function() {var s=document.createElement('script');s.setAttribute('src','http://whattechnology.com/dom_edit/embedded.js?');if(typeof loadedDomTree != 'undefined') {  var msg='This page already using domTree';  } else {    document.getElementsByTagName('head')[0].appendChild(s);      var msg='This page is now using domTree';        loadedDomTree = true;        }        var el=document.createElement('div');          el.style.position='fixed';            el.style.height='30';              el.style.width='200';                el.style.margin='0 auto';                  el.style.top='0';                    el.style.left='40%';                      el.style.padding='5px 10px 5px 10px';                        el.style.backgroundColor='#f99';                          el.innerHTML=msg;                          var b=document.getElementsByTagName('body')[0];                          b.appendChild(el);                          window.setTimeout(function() {                            jQuery(el).fadeOut('slow',function() {                                jQuery(this).remove();                                  });                                  }, 2500);                                  })();">
+      Take this Bookmarklet
+    </a>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+    var pageTracker = _gat._getTracker("UA-7527448-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+  </body>
+</html>
