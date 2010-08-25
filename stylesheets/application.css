@@ -1,18 +1,504 @@
-<html>
-  <head>
-    <style type='text/css'>
-      body { font-family: helvetica, verdana, arial; font-size: 10pt;}
-    </style>
-  </head>
-  <body>
-    <h1>
-      StaticMatic::TemplateError
-      in
-      /Users/collin/Code/whattech/src/stylesheets/application.sass
-    </h1>
-    <p>Invalid CSS after "#": expected id name, was " :background ur..."</p>
-    98:       :position absolute<br/>99:       :top 0<br/>100:       :left 0<br/>101:       # :background url(/images/fader-left.png)<br/>102:       :width 182px<br/>103:       :height 768px<br/>104:       :z-index 1000<br/>
-    <h2>Backtrace</h2>
-    (sass):101<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/scss/parser.rb:792:in `expected'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/scss/parser.rb:767:in `expected'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/scss/parser.rb:750:in `expr!'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/scss/parser.rb:456:in `id_selector'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/scss/parser.rb:416:in `simple_selector_sequence'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/scss/parser.rb:397:in `_selector'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/scss/parser.rb:385:in `selector_comma_sequence'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/scss/parser.rb:749:in `send'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/scss/parser.rb:749:in `expr!'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/scss/static_parser.rb:20:in `parse_selector'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/rule_node.rb:189:in `perform!'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:301:in `_perform'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:209:in `perform'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:322:in `perform_children'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:322:in `map'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:322:in `perform_children'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:313:in `perform!'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/rule_node.rb:191:in `perform!'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:301:in `_perform'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:209:in `perform'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:322:in `perform_children'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:322:in `map'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:322:in `perform_children'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:313:in `perform!'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/rule_node.rb:191:in `perform!'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:301:in `_perform'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:209:in `perform'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:322:in `perform_children'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:322:in `map'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:322:in `perform_children'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:313:in `perform!'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/rule_node.rb:191:in `perform!'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:301:in `_perform'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:209:in `perform'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:322:in `perform_children'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:322:in `map'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:322:in `perform_children'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:313:in `perform!'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/root_node.rb:59:in `perform!'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:301:in `_perform'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/node.rb:209:in `perform'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/root_node.rb:37:in `perform'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/tree/root_node.rb:29:in `render'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/engine.rb:196:in `_render'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/haml-3.0.13/lib/sass/engine.rb:167:in `to_css'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/staticmatic-0.10.8/bin/../lib/staticmatic/mixins/render.rb:81:in `generate_css'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/staticmatic-0.10.8/bin/../lib/staticmatic/mixins/build.rb:23:in `build_css'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/staticmatic-0.10.8/bin/../lib/staticmatic/mixins/build.rb:19:in `each'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/staticmatic-0.10.8/bin/../lib/staticmatic/mixins/build.rb:19:in `build_css'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/staticmatic-0.10.8/bin/../lib/staticmatic/mixins/build.rb:4:in `build'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/staticmatic-0.10.8/bin/../lib/staticmatic/base.rb:60:in `send'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/staticmatic-0.10.8/bin/../lib/staticmatic/base.rb:60:in `run'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/gems/staticmatic-0.10.8/bin/staticmatic:23<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/bin/staticmatic:19:in `load'<br/>/Users/collin/.rvm/gems/ruby-1.8.7-p249/bin/staticmatic:19
-  </body>
-</html>
+html {
+  overflow-x: hidden;
+  background: black; }
+
+#spotlight {
+  background: url(/images/spotlight.png) center -200px no-repeat;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%; }
+
+#portal {
+  background: url(/images/portal.png) center -200px no-repeat;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000; }
+
+body a {
+  color: #c96523; }
+body #turn_wrapper {
+  z-index: 100000; }
+body #header {
+  height: 232px; }
+body #gear {
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  top: 50px;
+  z-index: 1000; }
+body #nav {
+  display: none; }
+body #portfolio {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  top: 30px; }
+  body #portfolio {
+    display: block; }
+  body #portfolio li {
+    background-color: transparent !important;
+    height: 500px;
+    position: relative; }
+  body #portfolio .fader-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 182px;
+    height: 768px;
+    z-index: 1000; }
+  body #portfolio .fader-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 182px;
+    height: 768px;
+    z-index: 1000; }
+  body #portfolio .pager {
+    margin-left: 200px;
+    position: absolute;
+    top: -5px;
+    right: 188px;
+    z-index: 100; }
+    body #portfolio .pager a {
+      margin-top: 10px;
+      margin-right: 10px;
+      background-image: url(/images/nub.png);
+      background-position: 0 20px;
+      color: black;
+      text-decoration: none;
+      width: 20px;
+      height: 20px;
+      height: 1em;
+      display: -moz-inline-stack;
+      display: inline-block;
+      vertical-align: top;
+      zoom: 1;
+      *display: inline;
+      _height: 1em;
+      font-size: 0px;
+      font-color: transparent; }
+    body #portfolio .pager .activeSlide {
+      background-position: 0 0; }
+    body #portfolio .pager .clock {
+      width: 20px;
+      height: 20px;
+      padding-top: 10px; }
+  body #portfolio .screenshot {
+    top: 10px;
+    position: relative;
+    margin: 0 200px; }
+    body #portfolio .screenshot h1 {
+      position: absolute;
+      left: -20px;
+      top: 278px;
+      padding: 20px;
+      background: black;
+      font-size: 36px;
+      color: white;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px; }
+  body #portfolio .meta {
+    margin: 20px auto;
+      margin-left: 200px; }
+  body #portfolio img {
+    -moz-box-shadow: 0 0 10px black;
+    -webkit-box-shadow: 0 0 10px black;
+    filter: progid:DXImageTransform.Microsoft.Glow(Color='black', Strength=5); }
+
+h2, h1 {
+  font-weight: normal; }
+  h2 a, h1 a {
+    text-decoration: none; }
+    h2 a:hover, h1 a:hover {
+      text-decoration: underline; }
+
+ul {
+  list-style: outside; }
+
+.quoting {
+  padding: 20px 0 0 0;
+  font-style: italic;
+  font-size: 18px;
+  text-align: right; }
+  .quoting blockquote {
+    margin: 0 16px 0 0; }
+  .quoting cite {
+    display: block;
+    padding-right: 28px;
+    font-size: 12px; }
+
+.mission {
+  width: 653px;
+  margin: 0 auto;
+  height: 41px;
+  background-image: url(/images/line-one.png);
+  margin: 1.5em 0 2em 21px; }
+  .mission * {
+    display: none; }
+
+.explanation {
+  padding: 0 21px; }
+
+a {
+  color: #6a91f2; }
+
+.back {
+  width: 653px;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  display: block; }
+
+.queston {
+  padding-bottom: 0; }
+
+body, html {
+  height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: "Times New Roman", serif;
+  font-size: 15px; }
+  body #body-inner {
+    background-image: url(/images/pattern.png);
+    overflow: hidden;
+    min-height: 100%; }
+  body #header {
+    width: 715px;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: url(/images/header.png) no-repeat;
+    margin-top: 72px;
+    margin-bottom: 7px;
+    height: 62px; }
+    body #header #nav div, body #header #nav a {
+      float: left;
+      height: 30px;
+      margin-top: 34px;
+      xbackground-color: fuchsia;
+      text-indent: -500em; }
+    body #header #nav .work {
+      width: 74px; }
+    body #header #nav .blog {
+      width: 72px; }
+    body #header #nav .title {
+      width: 392px;
+      height: 64px;
+      margin-top: 0; }
+    body #header #nav .value {
+      width: 84px; }
+    body #header #nav .front {
+      width: 76px; }
+    body #header #gear {
+      display: none; }
+  body #body-wrapper {
+    width: 713px;
+    margin: 0 auto;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding: 1px;
+    background: white url(/images/dots.png) no-repeat; }
+    body #body-wrapper [role=main] {
+      padding: 0 2em; }
+    body #body-wrapper #body {
+      background-color: white;
+      overflow: hidden; }
+      body #body-wrapper #body ul {
+        margin: 1px 0 0 24px;
+        padding: 0; }
+      body #body-wrapper #body h3 {
+        font-size: 18px;
+        font-weight: normal;
+        margin: 0 0 3px 0;
+        padding: 0; }
+
+#turn-wrapper {
+  /*@ transition-rule @ */
+  -webkit-transition-duration: 1s;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 1000000; }
+  #turn-wrapper:hover {
+    /*@ transition-rule @ */
+    -webkit-transition-duration: 1s;
+    width: 400px;
+    height: 400px; }
+  #turn-wrapper * {
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+#turn-corner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 100000; }
+
+#turn-hideme {
+  width: 85%;
+  height: 85%;
+  overflow: hidden; }
+
+#the-team {
+  position: fixed;
+  right: 0;
+  margin-top: 3em;
+  z-index: 1000000; }
+  #the-team img {
+    border: 0; }
+  #the-team strong {
+    display: block; }
+  #the-team .profile {
+    /*@ transition-rule @ */
+    -webkit-transition-duration: 1s;
+    width: 219px;
+    height: 138px;
+    position: relative;
+    z-index: 0;
+    left: 0px;
+    margin: 0px; }
+    #the-team .profile:hover {
+      /*@ transition-rule @ */
+      -webkit-transition-duration: 1s;
+      -moz-box-shadow: 0 0 10px white;
+      -webkit-box-shadow: 0 0 10px white;
+      filter: progid:DXImageTransform.Microsoft.Glow(Color='white', Strength=5);
+      -webkit-transition-property: -webkit-box-shadow, left, margin, marginTop, marginBottom;
+      z-index: 1;
+      left: -20px;
+      margin: 20px 0; }
+    #the-team .profile:hover .info {
+      /*@ transition-rule @ */
+      -webkit-transition-duration: 1s;
+      filter: alpha(opacity=100);
+      opacity: 1;
+      text-shadow: 0px 0px 3px black;
+      background: black; }
+  #the-team .info {
+    /*@ transition-rule @ */
+    -webkit-transition-duration: 1s;
+    top: 0;
+    position: absolute;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+    right: 0px;
+    padding: 5px; }
+    #the-team .info a {
+      color: white;
+      display: block;
+      text-align: left;
+      padding-bottom: 5px;
+      padding-right: 5px; }
+  #the-team .name {
+    margin: 10px;
+    padding: 0;
+    bottom: 0;
+    font-size: 15px;
+    color: transparent !important;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 12px;
+    position: absolute; }
+
+.gregory h2.name {
+  background-image: url(/images/gregory-gallagher.png); }
+.collin h2.name {
+  background-image: url(/images/collin-miller.png); }
+.quinn h2.name {
+  background-image: url(/images/quinn-shanahan.png); }
+
+.projects {
+  width: 653px;
+  margin: 0 auto;
+  padding: 2em 0; }
+
+.skills {
+  position: absolute;
+  width: 200px;
+  margin-top: 1em;
+  margin-bottom: 1em; }
+  .skills em {
+    font-size: 10px;
+    color: green; }
+  .skills li {
+    list-style: none;
+    border-bottom: 1px dashed;
+    line-height: 2; }
+
+.bio {
+  width: 653px;
+  margin: 0 auto;
+  padding-bottom: 1em;
+  position: relative; }
+  .bio .evidence {
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 0;
+    margin-bottom: 1.5em;
+    box-shadow: 0px 0px 20px #643615;
+    -moz-box-shadow: 0px 0px 20px #643615;
+    -webkit-box-shadow: 0px 0px 20px #643615; }
+    .bio .evidence.lead {
+      float: left;
+      margin-left: 0;
+      margin-right: 1em; }
+  .bio h1 {
+    font-size: 32px;
+    position: static;
+    margin-left: 0; }
+    .bio h1 em {
+      font-size: 18px; }
+  .bio blockquote {
+    font-size: 16px;
+    margin: 0 1em;
+    padding: 1em;
+    background: #efefef;
+    clear: both;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; }
+  .bio .love {
+    background: pink; }
+  .bio cite {
+    display: block;
+    text-align: right; }
+  .bio p {
+    clear: both; }
+  .bio dl {
+    line-height: 1.8; }
+    .bio dl ul, .bio dl ol {
+      margin: 0 !important; }
+    .bio dl p, .bio dl li {
+      font-size: 16px;
+      list-style: outside; }
+    .bio dl dd {
+      margin: 0;
+      padding: 0 2em;
+      margin-bottom: 2em; }
+    .bio dl dt {
+      background-color: #454545;
+      color: #fafafa;
+      padding: 0px 1.5em;
+      font-size: 24px;
+      letter-spacing: 2px; }
+    .bio dl em {
+      font-style: normal;
+      background-color: #ffffcc; }
+
+#quinn h1 {
+  margin-bottom: 0; }
+#quinn .tagline {
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 2em; }
+#quinn h3 {
+  display: inline; }
+#quinn .company {
+  margin-bottom: 1em; }
+  #quinn .company.last {
+    margin-bottom: 0em; }
+#quinn .last {
+  margin-bottom: 3em; }
+
+.date {
+  font-style: italic;
+  font-family: serif;
+  color: #999999;
+  float: right;
+  text-shadow: 0px 0px 30px white; }
+
+#blog_posts h1, #blog_post h1 {
+  margin-bottom: 3px;
+  font-size: 34px;
+  margin-top: 0; }
+#blog_posts .post, #blog_post .post {
+  margin-bottom: 5em; }
+
+#blog_posts .post {
+  border-top: 1px dashed #999999;
+  padding: 2em;
+  clear: both;
+  background: #fafafa;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 0; }
+  #blog_posts .post:hover + .post {
+    border-top: 1px solid #643615; }
+  #blog_posts .post:hover {
+    cursor: pointer;
+    background: #643615;
+    box-shadow: 0px 0px 20px #643615;
+    -moz-box-shadow: 0px 0px 20px #643615;
+    -webkit-box-shadow: 0px 0px 20px #643615;
+    z-index: 1;
+    border: none;
+    border-top: 1px solid #643615; }
+    #blog_posts .post:hover a {
+      text-decoration: none;
+      text-shadow: 0 0 30px #643615; }
+  #blog_posts .post:first-child, #blog_posts .post:hover:first-child {
+    border: none; }
+#blog_posts img {
+  border: none; }
+#blog_posts .poster {
+  float: left;
+  margin-right: 1em;
+  text-decoration: none; }
+#blog_posts .title a {
+  border: 3px solid #643615;
+  padding: 0.3em;
+  display: block;
+  background: white;
+  margin-left: 1.5em;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+
+::selection {
+  background: transparent;
+  color: white;
+  text-shadow: 0 0 10px blue; }
+
+#blog_post {
+  padding: 20px; }
+
+#content {
+  width: 653px;
+  margin: 0 auto;
+  padding-bottom: 2em; }
+  #content .navigation {
+    padding-top: 2em; }
+  #content .gist {
+    font-size: 13px; }
+  #content img {
+    border: 0; }
+  #content .addtoany_share_save_container li {
+    list-style: none; }
+  #content #dsq-post-add-iframe {
+    width: 618px;
+    height: 295px; }
+  #content .postmetadata {
+    border-left: 1px solid #cccccc;
+    padding: 1em; }
+  #content .dsq-trackback-url {
+    border: 1px solid #cccccc;
+    width: 533px; }
+  #content .post h2 {
+    font-size: 32px; }
+
+#collin, #quinn {
+  height: 100%;
+  background: url(/images/pattern.png); }
