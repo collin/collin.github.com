@@ -337,6 +337,19 @@ body {
     border-bottom: 1px dashed;
     line-height: 2; }
 
+.bio .available {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 0 1em;
+  padding: 1em;
+  background: #efffef;
+  clear: both;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+
+
 .bio {
   width: 653px;
   margin: 0 auto;
